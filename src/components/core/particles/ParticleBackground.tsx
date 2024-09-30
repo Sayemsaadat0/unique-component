@@ -556,9 +556,9 @@ export const ParticleBackground = () => {
     });
   }, []);
 
-  // const particlesLoaded = async (): Promise<void> => {
-  //   // console.log(container);
-  // };
+  const particlesLoaded = async (): Promise<void> => {
+    // console.log(container);
+  };
 
   const options: RecursivePartial<IOptions> = useMemo(
     () => ({
