@@ -538,11 +538,7 @@
 "use client"
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import {
-  IOptions,
-  RecursivePartial,
-  // type Container,
-} from "@tsparticles/engine";
+
 import { loadAll } from "@tsparticles/all";
 
 export const ParticleBackground = () => {
@@ -560,7 +556,7 @@ export const ParticleBackground = () => {
     // console.log(container);
   };
 
-  const options: RecursivePartial<IOptions> = useMemo(
+  const options: any = useMemo(
     () => ({
       autoPlay: true,
       background: {
