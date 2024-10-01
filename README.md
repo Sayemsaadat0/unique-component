@@ -16,5 +16,8 @@ npm run dev
 ## Cubic Bazier Svg Path rotation Generator  
 https://sean.brunnock.com/SVG/SVGPathGenerator/ 
 
+https://www.easycodetools.com/tool/svg-path-builder
+
+
 
 

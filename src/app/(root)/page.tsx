@@ -10,29 +10,30 @@ const page = () => {
 
 
 
-      <div className='mx-auto'>
+      <div className='mx-auto mt-10'>
         <svg
           className=''
           width="100%"
           height="100%"
-          viewBox="-100 0 780 360"
+          viewBox="-70 0 1000 550"
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
         >
           <defs>
             <path id="MyPath"
-              d="M3,73 C550,39 0,475 596,318" />
+              d="M 50 0 Q 50 300 250 200 Q 550 50 600 350 Q 650 500 850 450" />
           </defs>
           <use xlinkHref="#MyPath" fill="none" stroke="" />
-          <text fontFamily="Verdana" fontSize="23" fill="white">
+          <text fontFamily="Verdana" fontSize="12.3" fill="white">
             <textPath xlinkHref="#MyPath">
-              Hello There I’m Abu Saadat Md. Sayem,
-              <tspan id='tspan'> A Frontend Developer.</tspan> 
+              Hello There! I’m Abu Saadat Md. Sayem,  <tspan id='tspan'> a frontend developer.</tspan> based in Dhaka, Bangladesh. Currently exploring  exciting opportunities to collaborate on innovative web projects.
             </textPath>
           </text>
         </svg>
       </div>
+
+
 
       {/* 
       <div className=''>
