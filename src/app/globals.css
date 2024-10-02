@@ -5,7 +5,12 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-  /* background-color: black; */
+  background-image:
+    linear-gradient(to right top, #051937, #002941, #00373b, #05432c, #3c4a1e);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
 }
 
 #particleJs canvas {
@@ -43,7 +48,7 @@ body {
 }
 
 
-#tspan{
+#tspan {
   fill: yellow;
   font-weight: bold;
 }

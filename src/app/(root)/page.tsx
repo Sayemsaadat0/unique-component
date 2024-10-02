@@ -1,12 +1,10 @@
-import { ParticleBackground } from '@/components/core/particles/ParticleBackground'
+
 import React from 'react'
 
 const page = () => {
   return (
     <div className='relative'>
-      <div id='particleJs'>
-        <ParticleBackground />
-      </div>
+ 
 
 
 
