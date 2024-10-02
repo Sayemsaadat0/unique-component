@@ -15,7 +15,7 @@ const page = () => {
           className=''
           width="100%"
           height="100%"
-          viewBox="-70 0 1000 550"
+          viewBox="-69 0 1000 550"
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
