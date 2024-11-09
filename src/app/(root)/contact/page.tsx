@@ -1,8 +1,13 @@
+
+import ContactManagement from '@/components/page/contact/ContactManagement'
 import React from 'react'
 
 const page = () => {
   return (
-    <div>page</div>
+    <div>
+      <ContactManagement />
+
+    </div>
   )
 }
 
